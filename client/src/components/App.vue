@@ -2,7 +2,7 @@
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #039BE5;">
       <a class="navbar-brand" href="#">
-          <img src="images/software-dev.png" alt="" width="100px">
+          <img src="images/lehigh-logo.png" alt="" width="100px" >
       </a>
       <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -16,10 +16,13 @@
               <router-link class="nav-link" to="/Resume">Resume/CV</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/Websites">Websites and Links</router-link>
+              <router-link class="nav-link" to="/websites">Websites and Links</router-link>
             </li>
           </ul>
         </div>
+        <a class="navbar-brand" href="#">
+          <typeJoke></typeJoke>
+        </a>
     </nav>
     <div class="container mt-3">
       <router-view class="mt-5"/>
@@ -30,8 +33,12 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 import { component } from 'vue/types/umd';
-
-@Component
+import typeJoke from './typeJoke.vue'
+@Component({
+  components: {
+    typeJoke
+  }
+})
 export default class App extends Vue {}
 </script>
 <style scoped>

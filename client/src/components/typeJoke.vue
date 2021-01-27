@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <h3>Jokes are
+    <h3>Who am I?
       <span class="typed-text">{{ typeValue }}</span>
       <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
     </h3>
@@ -14,7 +14,7 @@ import { setTimeout } from 'timers';
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['fun', 'awesome', 'a journey', 'love','life','Chuck Norris','Heart Warming','Life Changing',':)'],
+        typeArray: ['Engineer','Singer','Electrical Engineer','Circuit Tutor','CS Tutor','Student','Beatboxer','Writing Fellow','Computer Engineer','Calculus Tutor','University Choir'],
         typingSpeed: 100,
         erasingSpeed: 50,
         newTextDelay: 750,
