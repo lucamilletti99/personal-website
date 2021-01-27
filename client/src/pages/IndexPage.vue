@@ -4,7 +4,7 @@
     <div class="list-group">
       <router-link class="list-group-item list-group-item-action" to="/aboutMe">About Me</router-link>
       <router-link class="list-group-item list-group-item-action" to="/Resume">Resume/CV</router-link>
-      <router-link class="list-group-item list-group-item-action" to="/website">Personal Website Links</router-link>
+      <router-link class="list-group-item list-group-item-action" to="/websites">Personal Website Links</router-link>
     </div>
   </div>
 </template>
