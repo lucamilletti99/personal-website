@@ -1,0 +1,215 @@
+{
+  "posts": [
+    {
+      "text": "Test1",
+      "id": 1608357863636,
+      "date": "Dec 19th, 01:04"
+    },
+    {
+      "text": "Test2",
+      "id": 1608358131116,
+      "date": "Dec 19th, 01:08"
+    },
+    {
+      "text": "Test3",
+      "id": 1608363741271,
+      "date": "Dec 19th, 02:42"
+    },
+    {
+      "text": "Test4",
+      "id": 1608363749582,
+      "date": "Dec 19th, 02:54"
+    },
+    {
+      "text": "djknb",
+      "id": 1611431023864,
+      "date": "Jan 23rd, 14:43"
+    },
+    {
+      "text": "djknb",
+      "id": 1611431025201,
+      "date": "Jan 23rd, 14:43"
+    },
+    {
+      "text": "fdgdsfgs"
+    },
+    {
+      "text": "fdgdsfgs"
+    },
+    {
+      "text": "fdgdsfgs"
+    },
+    {
+      "text": "fdgdsfgs"
+    }
+  ],
+  "users": [
+    {
+      "preference": "0"
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    },
+    {
+      "preference": {
+        "choice": "0"
+      }
+    },
+    {
+      "preference": {
+        "choice": "1"
+      }
+    }
+  ],
+  "jokes": [
+    {},
+    {
+      "text": "sdfasdf hsfhasdhfhashdf "
+    },
+    {
+      "text": "sdfasdf hsfhasdhfhashdf "
+    },
+    {
+      "text": "asdf"
+    },
+    {
+      "text": "ddfadf"
+    },
+    {
+      "text": "sdfdsf"
+    },
+    {
+      "text": "sdf"
+    }
+  ],
+
+  "people": [
+    {
+      "name": "jeff",
+      "insta": "@lolitsjef",
+      "gitlab": "https://gitlab.com/lolitsjef"
+    }
+  ]
+}
