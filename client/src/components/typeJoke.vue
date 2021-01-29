@@ -1,10 +1,11 @@
 <template>
   <div class="container">
-    <h3>Who am I?
-      <span class="typed-text">{{ typeValue }}</span>
-      <span class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
-    </h3>
+    <h2 style = "color: black; font-size: 16px">Who am I?
+      <span style = "color: white; font-size: 30px" class="typed-text">{{ typeValue }}</span>
+      <span style = "color: white; font-size: 30px" class="cursor" :class="{'typing': typeStatus}">&nbsp;</span>
+    </h2>
   </div>
+  
 </template>
 
 <script>
@@ -14,7 +15,7 @@ import { setTimeout } from 'timers';
       return {
         typeValue: '',
         typeStatus: false,
-        typeArray: ['Engineer','Singer','Electrical Engineer','Circuit Tutor','CS Tutor','Student','Beatboxer','Writing Fellow','Computer Engineer','Calculus Tutor','University Choir'],
+        typeArray: ['Engineer','Student','Singer','Electrical Engineer','Circuit Tutor','CS Tutor','Student','Beatboxer','Writing Fellow','Computer Engineer','Calculus Tutor','University Choir'],
         typingSpeed: 100,
         erasingSpeed: 50,
         newTextDelay: 750,
@@ -68,19 +69,23 @@ import { setTimeout } from 'timers';
     align-items: center;
   }
   h2 {
-    font-size: 6rem;
-    font-weight: normal;
+    opacity: 0.5;
+    font-size: 10px
+    color: black;
     span.typed-text {
-      color: #D2B94B;
+      color: white;
+      font-size: 14px
     }
     span.cursor {
       display: inline-block;
-      margin-left: 3px;
       width: 4px;
+      color: white;
       background-color: #fff;
       animation: cursorBlink 1s infinite;
+      font-size: 14px
     }
     span.cursor.typing {
       animation: none;
+      color: white;
     }
   }

@@ -16,7 +16,7 @@
               <router-link class="nav-link" to="/Resume">Resume/CV</router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link" to="/websites">Websites and Links</router-link>
+              <router-link class="nav-link" to="/websites">Websites/Links</router-link>
             </li>
           </ul>
         </div>
@@ -41,15 +41,12 @@ import typeJoke from './typeJoke.vue'
 })
 export default class App extends Vue {}
 </script>
-<style scoped>
-  @import url('https://fonts.googleapis.com/css?family=Righteous');
-  .about-logo a {
-    padding: 20px;
-    outline: 1px solid rgb(169, 169, 169);
-    display: inline-block;
+<style>
+  body {
+    background-image: url('../components/Background.jpg');
+    background-size: cover;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
   }
-  .about-logo a:hover {
-    opacity: 0.8;
-  }
-
 </style>
+
