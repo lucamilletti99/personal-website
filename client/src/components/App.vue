@@ -20,7 +20,7 @@
             </li>
           </ul>
         </div>
-        <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="#">
           <typeJoke></typeJoke>
         </a>
     </nav>

@@ -1,6 +1,6 @@
 <template>
   <div class="page page--index"> 
-    <h3 class="mt-2">Welcome to my website</h3>
+    <h1 class="mt-2">Welcome to My Website!</h1>
   </div>
 </template>
 
